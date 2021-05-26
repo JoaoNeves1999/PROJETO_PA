@@ -16,7 +16,7 @@ annotation class InjectAdd
 class Injector {
     companion object {
         val map: MutableMap<String, MutableList<KClass<*>>> =
-            mutableMapOf()
+                            mutableMapOf()
         val classList = mutableListOf<KClass<*>>()
 
         init {

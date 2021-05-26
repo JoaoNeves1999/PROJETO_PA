@@ -77,9 +77,9 @@ class PresentationSetup : JSONPlugin {
     override fun changeImage(element: Element, shell: Shell): Image? {
         var image: Image
         if(element is JsonObject || element is JsonArray){
-            image = Image(shell.display, "C:\\Users\\jotan\\IdeaProjects\\PROJETO\\OBJECT.png")
+            image = Image(shell.display, "C:\\Users\\jotan\\IdeaProjects\\PROJETOFINAL\\OBJECT.png")
         }else{
-            image = Image(shell.display, "C:\\Users\\jotan\\IdeaProjects\\PROJETO\\VALUE.png")
+            image = Image(shell.display, "C:\\Users\\jotan\\IdeaProjects\\PROJETOFINAL\\VALUE.png")
         }
         return image
     }
